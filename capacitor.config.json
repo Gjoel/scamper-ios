@@ -1,0 +1,23 @@
+{
+  "appId": "com.gjoel.scamper",
+  "appName": "Scamper",
+  "webDir": "www",
+  "backgroundColor": "#FFE14D",
+  "ios": {
+    "contentInset": "never",
+    "backgroundColor": "#FFE14D",
+    "limitsNavigationsToAppBoundDomains": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 900,
+      "launchAutoHide": true,
+      "backgroundColor": "#FFE14D",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "style": "LIGHT",
+      "overlaysWebView": true
+    }
+  }
+}
